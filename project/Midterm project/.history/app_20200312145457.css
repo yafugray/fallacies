@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#Mainpage {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+    overflow: hidden;
+}
+@keyframes fadein {
+	
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+#rec1 {
+	position: absolute;
+	overflow: visible;
+	width: 50vw;
+	height: 50vh;
+	left: 0px;
+    top: 0px;
+    background-color: rgba(18,176,105,1);
+}
+#rec4 {
+	position: absolute;
+	overflow: visible;
+	width: 50vw;
+	height: 50vh;
+	left: 0px;
+    bottom: 0px;
+    background-color: rgba(246,58,44,1);
+}
+#rec2 {
+	position: absolute;
+	overflow: visible;
+	width: 50vw;
+	height: 50vh;
+	right: 0px;
+    top: 0px;
+    background-color: rgba(0,82,247,1);
+}
+#rec3 {
+	position: absolute;
+	overflow: visible;
+	width: 50vw;
+	height: 50vh;
+	right: 0px;
+    bottom: 0px;
+    background-color: rgba(255,182,26,1);
+}
+
+#group1 {
+    position: absolute;
+	width: 70vw;
+	height: 35vh;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: custom___2.html;
+	cursor: pointer;
+}
+
+.ellipse {
+    filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 50vw;
+	height: 35vh;
+    left: 0px;
+    right:0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+#fallacies {
+    font-family: titling-gothic-fb-Narrow, sans-serif;
+    font-style: Black;
+    font-weight: 900;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    overflow: visible;
+    width: 889px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: TitlingGothicFB Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 150px;
+    color: rgba(248,248,248,1);
+}
