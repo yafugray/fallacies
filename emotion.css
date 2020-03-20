@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "VCR OSD Mono";
+    src: url(VCR_OSD_MONO.ttf) format("truetype");
+}
+
+.emotionpage {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+	background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.emotionmodule {
+    width: 75%;
+    height: 80%;
+    background-color: #FFB61A;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.emotionheader {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.emotiondescription {
+    margin-left: 3%;
+    max-width: 45%;
+}
+
+.emotiondefinition {
+    font-weight: 900;
+}
+
+.emotionillustration {
+    width: auto;
+    height: 90%;
+    float: right;
+    margin-top: -35%;
+    margin-right: 5%;
+}
+
+h3 {
+    font-size: 3vw;
+    font-family: 'VCR OSD Mono', serif;
+    padding-left: 20px;
+}
+
+p, div {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.emotionicon {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    background-color: #12B069;
+}
+
+.youtubebuttonemotion {
+    width: 25%;
+    height: 8%;
+    background-color: #12B069;
+    color: white;
+    border-top-right-radius: 50% 100px;
+    border-bottom-right-radius: 50% 100px;
+    border-top-left-radius: 50% 100px;
+    border-bottom-left-radius: 50% 100px;      
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 3%;
+}
+
+.backbuttonemotion {
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    left: 89.5%;
+    top: 0%;
+    cursor: pointer;
+}

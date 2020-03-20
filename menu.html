@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="menu.css" rel="stylesheet">
+    <link href="adhominem.css" rel="stylesheet">
+    <link href="scotsman.css" rel="stylesheet">
+    <link href="bandwagon.css" rel="stylesheet">
+    <link href="emotion.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100" rel="stylesheet">
+</head>
+<body>
+    <!-- Menu Page Start -->
+    <div class="menupage">
+        <img src="imgs/quiz.svg" class="quizbuttonmenu" onClick="window.location='quiz.html';"></img>
+        <img src="imgs/back.svg" class="backbuttonmenu" onClick="window.location='homepage.html';"/>
+        <div class="menu">
+            <div class="greensquare" onClick="AdHominemToggle()">
+                <h2>Ad Hominem</h2>
+            </div>
+            <div class="bluesquare" onClick="ScotsmanToggle()">
+                <h2>No True Scotsman</h2>
+            </div>
+            <div class="redsquare" onClick="BandwagonToggle()">
+                <h2>Bandwagon</h2>
+            </div>
+            <div class="yellowsquare" onClick="EmotionToggle()">
+                <h2>Appeal to Emotion</h2>
+            </div>
+        </div>
+        <div class="whitedesign">
+            <div class="whitecircle1"></div>
+            <div class="whitecircle2"></div>
+            <div class="whitecircle3"></div>
+            <div class="whiteline"></div>
+        </div>
+        <div class="pinkdesign">
+            <div class="pinkcircle1"></div>
+            <div class="pinkcircle2"></div>
+            <div class="pinkcircle3"></div>
+            <div class="pinkcircle4"></div>
+            <div class="pinkcircle5"></div>
+            <div class="pinkline"></div>
+        </div>
+    </div>
+    <!-- Menu Page End -->
+
+    <!-- Ad Hominem Start -->
+    <div class="adhominempage">
+        <img src="imgs/back.svg" class="backbuttonadhominem" onClick="window.location='menu.html';"/>
+        <div class="adhominemmodule">
+            <div class="adhominemheader">
+                <img src="imgs/adhominemicon.png" class="adhominemicon"></img>
+                <h3>Ad Hominem</h3>
+            </div>
+            <div class="adhominemdescription">
+                <p class="adhominemdefinition">Being mean to someone or not believing them because of who they are or how they look.</p>
+                <p class="adhominemexample">Example: "His family is poor so he must not be smart. Don't believe anything he says."</p>
+            </div>
+            <div class="youtubelinks">
+                <a href="https://www.youtube.com/watch?v=IVFK8sVdJNg" target="_blank" class="youtubebuttonadhominem">YouTube Video #1</a>
+                <a href="https://www.youtube.com/watch?v=FD50OTR3arY" target="_blank" class="youtubebuttonadhominem">YouTube Video #2</a>
+                <a href="https://www.youtube.com/watch?v=w24x_s3HK-A" target="_blank" class="youtubebuttonadhominem">YouTube Video #3</a>
+            </div>
+            <img src="imgs/adhominem.png" class="adhominemillustration"></img>
+        </div>
+    </div>
+    <!-- Ad Hominem End -->
+
+    <!-- No True Scotsman Start -->
+    <div class="scotsmanpage">
+        <img src="imgs/back.svg" class="backbuttonscotsman" onClick="window.location='menu.html';"/>
+        <div class="scotsmanmodule">
+            <div class="scotsmanheader">
+                <img src="imgs/scotsmanicon.png" class="scotsmanicon"></img>
+                <h3>No True Scotsman</h3>
+            </div>
+            <div class="scotsmandescription">
+                <p class="scotsmandefinition">Making unreasonable definitions about a specific group, and claiming someone is not truly part of the group unless they meet the definition.</p>
+                <p class="scotsmanexample">Example: “You think you’re a Batman fan? Only a ‘true’ Batman fan has a signed poster!”</p>
+            </div>
+            <div class="youtubelinks">
+                <a href="https://www.youtube.com/watch?v=5zzSqL--d_I" target="_blank" class="youtubebuttonscotsman">YouTube Video #1</a>
+                <a href="https://www.youtube.com/watch?v=0_NCtdOKQ04" target="_blank" class="youtubebuttonscotsman">YouTube Video #2</a>
+                <a href="https://www.youtube.com/watch?v=FsJt7RroNno" target="_blank" class="youtubebuttonscotsman">YouTube Video #3</a>
+            </div>
+            <img src="imgs/scotsman.png" class="scotsmanillustration"></img>
+        </div>
+    </div>
+    <!-- No True Scotsman End -->
+
+    <!-- Bandwagon Start -->
+    <div class="bandwagonpage">
+        <img src="imgs/back.svg" class="backbuttonbandwagon" onClick="window.location='menu.html';"/>
+        <div class="bandwagonmodule">
+            <div class="bandwagonheader">
+                <img src="imgs/bandwagonicon.png" class="bandwagonicon"></img>
+                <h3>Bandwagon</h3>
+            </div>
+            <div class="bandwagondescription">
+                <p class="bandwagondefinition">Believing or doing something because many other people are doing it, even if it's wrong.</p>
+                <p class="bandwagonexample">Example: “Everyone in class thinks the Vancouver Canucks are going to win the hockey game, so they definitely will.”</p>
+            </div>
+            <div class="youtubelinks">
+                <a href="https://www.youtube.com/watch?v=oulJ9DpLa-w" target="_blank" class="youtubebuttonbandwagon">YouTube Video #1</a>
+                <a href="https://www.youtube.com/watch?v=IZMnvxye20w" target="_blank" class="youtubebuttonbandwagon">YouTube Video #2</a>
+                <a href="https://www.youtube.com/watch?v=Akt1zO2KWzw" target="_blank" class="youtubebuttonbandwagon">YouTube Video #3</a>
+            </div>
+            <img src="imgs/bandwagon.png" class="bandwagonillustration"></img>
+        </div>
+    </div>
+    <!-- Bandwagon End -->
+    
+    <!-- Appeal to Emotion Start -->
+    <div class="emotionpage">
+        <img src="imgs/back.svg" class="backbuttonemotion" onClick="window.location='menu.html';"/>
+        <div class="emotionmodule">
+            <div class="emotionheader">
+                <img src="imgs/emotionsicon.png" class="emotionicon"></img>
+                <h3>Appeal to Emotion</h3>
+            </div>
+            <div class="emotiondescription">
+                <p class="emotiondefinition">Making people feel a certain emotion in order for you to win the argument.</p>
+                <p class="emotionexample">Example: “You have to eat that, think about the starving children in other countries!”</p>
+            </div>
+            <div class="youtubelinks">
+                <a href="https://www.youtube.com/watch?v=PN3wKmVSfbs" target="_blank" class="youtubebuttonemotion">YouTube Video #1</a>
+                <a href="https://www.youtube.com/watch?v=cxrqdL-tD-M" target="_blank" class="youtubebuttonemotion">YouTube Video #2</a>
+                <a href="https://www.youtube.com/watch?v=zfJl2M8d-HE" target="_blank" class="youtubebuttonemotion">YouTube Video #3</a>
+            </div>
+            <img src="imgs/emotions.png" class="emotionillustration"></img>
+        </div>
+    </div>
+    <!-- Appeal to Emotion End -->
+
+    <script src="app.js"></script>
+</body>
+</html>

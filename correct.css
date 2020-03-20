@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "VCR OSD Mono";
+    src: url(VCR_OSD_MONO.ttf) format("truetype");
+}
+
+.correctpage {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+	background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.correctmodal {
+    margin: auto;
+    width: 50%;
+    height: 25%;
+    background-color: #F88CA0;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.nextquestion {
+    width: 50%;
+    height: 30%;
+    background-color: black;
+    border-top-right-radius: 50% 100px;
+    border-bottom-right-radius: 50% 100px;
+    border-top-left-radius: 50% 100px;
+    border-bottom-left-radius: 50% 100px;      
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    left: 25%;
+}
