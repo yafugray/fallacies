@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+    <link href="question2.css" rel="stylesheet">
+    <link href="correct.css" rel="stylesheet">
+    <link href="incorrect.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100" rel="stylesheet">
+</head>
+<body>
+    <!-- Question 2 Page Start -->
+    <div class="q2page">
+        <img src="imgs/back.svg" class="backbuttonq2" onClick="window.location='question1.html';"/>
+        <div class="q2block">
+            <div class="q2text">
+                <div class="q2text">
+                    <h2>Question 2</h2>
+                    <br>
+                    <h3>Person 1: “All Canadians play hockey.”</h3>
+                    <h3>Person 2: “I’m Canadian, and I don’t play hockey.”</h3>
+                    <h3>Person 1: “Then you’re not a ’true’ Canadian.”</h3>
+                </div>
+            </div>
+        </div>
+        <div class="whitedesign1" onClick="Incorrect()">
+            <div class="whitecircle1"></div>
+            <div class="whiteline1">
+                <h3 class="answer">Ad Hominem</h3>
+            </div>
+        </div>
+        <div class="pinkdesign1" onClick="Correct()">
+            <div class="pinkcircle1"></div>
+            <div class="pinkline1">
+                <h3 class="answer">No True Scotsman</h3>
+            </div>
+        </div>
+        <div class="whitedesign2" onClick="Incorrect()">
+            <div class="whitecircle2"></div>
+            <div class="whiteline2">
+                <h3 class="answer">Bandwagon</h3>
+            </div>
+        </div>
+        <div class="pinkdesign2" onClick="Incorrect()">
+            <div class="pinkcircle2"></div>
+            <div class="pinkline2">
+                <h3 class="answer">Appeal to Emotion</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Question 2 Page End -->
+
+    <!-- Correct Modal Start -->
+    <div class="correctpage">
+        <div class="correctmodal">
+            <h2>Correct!</h2>
+            <br/>
+            <h3>This is an example of No True Scotsman.</h3>
+            <br/>
+            <div class="nextquestion" onclick="window.location='question3.html';">
+                <h3>Next Question</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Correct Modal End -->
+
+    <!-- Incorrect Modal Start -->
+    <div class="incorrectpage">
+        <div class="incorrectmodal">
+            <div class="incorrect">
+                <h2>Incorrect!</h2>
+            </div>
+            <div class="tryagain" onclick="window.location='question2.html';">
+                <h3>Try Again</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Incorrect Modal End -->
+
+    <script src="question.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+body {
+    background-color: black;
+    display: flex;
+}
+
+@font-face {
+    font-family: "VCR OSD Mono";
+    src: url(VCR_OSD_MONO.ttf) format("truetype");
+}
+
+h2 {
+    color: white;
+    margin: auto;
+    font-family: 'VCR OSD Mono', serif;
+    text-align: center;
+    cursor: pointer;
+    font-size: 3vw;
+}
+
+.backbuttonfinish {
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    left: 90%;
+    cursor: pointer;
+}
+
+.finishblock {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-left: 50%;
+    margin-top: 30%;
+}
+
+.congratstext {
+    justify-content: center;
+    align-items: center;
+}
+
+.backtomenubutton {
+    width: 50%;
+    height: 30%;
+    background-color: #F88CA0;
+    border-top-right-radius: 50% 100px;
+    border-bottom-right-radius: 50% 100px;
+    border-top-left-radius: 50% 100px;
+    border-bottom-left-radius: 50% 100px;      
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 25%;
+}
+
+.whitedesign {
+    margin-left: 5%;
+}
+
+.whitecircle1 {
+    background-color: white;
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    bottom: 60%;
+    border-radius: 50%;
+}
+
+.whitecircle2 {
+    background-color: white;
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    bottom: 40%;
+    border-radius: 50%;
+}
+
+.whitecircle3 {
+    background-color: white;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 30%;
+    box-shadow: 0px -6px 10px #888888;
+}
+
+.whiteline {
+    background-color: white;
+    width: 8vw;
+    height: 37vh;
+    position: absolute;
+    bottom: 0%;
+}
+
+.pinkdesign {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: 75%;
+    margin-top: 20%;
+}
+
+.pinkcircle1 {
+    background-color: #F88CA0;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    position: absolute;
+    right: 70%;
+}
+
+.pinkcircle2 {
+    background-color: #F88CA0;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    position: absolute;
+    right: 50%;
+}
+
+.pinkcircle3 {
+    background-color: #F88CA0;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    position: absolute;
+    right: 35%;
+}
+
+.pinkcircle4 {
+    background-color: #F88CA0;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    position: absolute;
+    right: 25%;
+}
+
+.pinkcircle5 {
+    background-color: #F88CA0;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    box-shadow: -4px 0px 20px #000000;
+    position: absolute;
+    right: 21%;
+}
+
+.pinkline {
+    background-color: #F88CA0;
+    width: 25vw;
+    height: 8vw;
+    position: absolute;
+    right: 0;
+}

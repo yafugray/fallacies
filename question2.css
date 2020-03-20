@@ -1,0 +1,158 @@
+body {
+    background-color: black;
+    display: flex;
+}
+
+@font-face {
+    font-family: "VCR OSD Mono";
+    src: url(VCR_OSD_MONO.ttf) format("truetype");
+}
+
+h2 {
+    color: white;
+    margin: auto;
+    font-family: 'VCR OSD Mono', serif;
+    text-align: center;
+    font-size: 3vw;
+}
+
+h3 {
+    color: white;
+    margin: auto;
+    font-family: 'VCR OSD Mono', serif;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.answer {
+    color: black;
+    margin: auto;
+    font-family: 'VCR OSD Mono', serif;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.backbuttonq2 {
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    left: 90%;
+    cursor: pointer;
+}
+
+.q2text {
+    margin-top: 5%;
+}
+
+.q2page {
+    width: 100%;
+    height: 100%;
+}
+
+.whitedesign1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.whitecircle1 {
+    background-color: white;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 47%;
+}
+
+.whiteline1 {
+    background-color: white;
+    width: 50vw;
+    height: 7vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.pinkdesign1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: 75%;
+    margin-top: 8%;
+    cursor: pointer;
+}
+
+.pinkcircle1 {
+    background-color: #F88CA0;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    position: absolute;
+    right: 46.5%;
+}
+
+.pinkline1 {
+    background-color: #F88CA0;
+    width: 50vw;
+    height: 7vw;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.whitedesign2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 8%;
+    cursor: pointer;
+}
+
+.whitecircle2 {
+    background-color: white;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 47%;
+}
+
+.whiteline2 {
+    background-color: white;
+    width: 50vw;
+    height: 7vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.pinkdesign2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: 75%;
+    margin-top: 8%;
+    cursor: pointer;
+}
+
+.pinkcircle2 {
+    background-color: #F88CA0;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    position: absolute;
+    right: 46.5%;
+}
+
+.pinkline2 {
+    background-color: #F88CA0;
+    width: 50vw;
+    height: 7vw;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+}

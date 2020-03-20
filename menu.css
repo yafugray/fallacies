@@ -1,0 +1,179 @@
+body {
+    background-color: black;
+    display: flex;
+}
+
+@font-face {
+    font-family: "VCR OSD Mono";
+    src: url(VCR_OSD_MONO.ttf) format("truetype");
+}
+
+h2 {
+    color: white;
+    margin: auto;
+    font-family: 'VCR OSD Mono', serif;
+    text-align: center;
+    cursor: pointer;
+    font-size: 3vw;
+}
+
+.menu {
+    margin: auto;
+    display: flex;
+}
+
+.greensquare {
+    background-color: #12B069;
+    width: 25vw;
+    height: 15vw;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25vw;
+    margin-top: 15%;
+    cursor: pointer;
+}
+
+.bluesquare {
+    background-color: #0051F7;
+    width: 25vw;
+    height: 15vw;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.redsquare {
+    background-color: #F63A2C;
+    width: 25vw;
+    height: 15vw;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35%;
+    margin-left: -50vw;
+    cursor: pointer;
+}
+
+.yellowsquare {
+    background-color: #FFB61A;
+    width: 25vw;
+    height: 15vw;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+    margin-left: 0vw;
+    cursor: pointer;
+}
+
+.whitedesign {
+    margin-left: 5%;
+    margin-top: -35%;
+}
+
+.whitecircle1 {
+    background-color: white;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+}
+
+.whitecircle2 {
+    background-color: white;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    margin-top: 4%;
+}
+
+.whitecircle3 {
+    background-color: white;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    margin-top: -7%;
+    box-shadow: 0px -6px 10px #888888;
+}
+
+.whiteline {
+    background-color: white;
+    width: 8vw;
+    height: 37vh;
+    margin-top: -5.5%;
+}
+
+.pinkdesign {
+    margin-left: 35%;
+    margin-top: -14%;
+}
+
+.pinkcircle1 {
+    background-color: #F88CA0;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+}
+
+.pinkcircle2 {
+    background-color: #F88CA0;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: -16.5%;
+}
+
+.pinkcircle3 {
+    background-color: #F88CA0;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    margin-left: 60%;
+    margin-top: -16.5%;
+}
+
+.pinkcircle4 {
+    background-color: #F88CA0;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    margin-left: 80%;
+    margin-top: -16.5%;
+}
+
+.pinkcircle5 {
+    background-color: #F88CA0;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    margin-left: 90%;
+    margin-top: -16.5%;
+    box-shadow: -4px 0px 20px #000000;
+}
+
+.pinkline {
+    background-color: #F88CA0;
+    width: 25vw;
+    height: 8vw;
+    margin-left: 98%;
+    margin-top: -16.4%;
+}
+
+.backbuttonmenu {
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    left: 90%;
+    cursor: pointer;
+}
+
+.quizbuttonmenu {
+    width: 9vw;
+    height: 9vw;
+    position: absolute;
+    left: 4%;
+    cursor: pointer;
+}
